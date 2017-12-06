@@ -1,0 +1,67 @@
+
+@screen-xs-max:768px;
+@screen-sm-min:768px;
+@screen-md-min:992px;
+@screen-lg-min:1200px;
+.site-card-header{
+    margin-bottom:10px;
+    border-bottom:1px solid #e6e6e6;
+    position:relative;
+    height:1px
+}
+
+.site-card-header h3{
+    position:absolute;
+    top:-12px;
+    background-color:#FFF;
+    padding:0 10px
+}
+
+// .site-card-header .edit-btn{
+//     position:absolute;
+//     top:-20px;
+//     right:10px;
+// }
+
+.site-link{
+    background-size:15px 15px;
+    background-repeat: no-repeat;
+    padding-left:20px
+}
+
+.site-des{
+    margin: 10px 0;
+    color: #a2a2a2;
+    line-height: 1.5;
+    height:36px;
+    overflow:hidden;
+}
+
+.site-card-grid{
+    width: 25%;
+    border:0;
+    box-shadow:none;
+    padding:15px 15px 0 15px;
+}
+
+.site-handler{
+    margin-right: 5px;
+}
+
+/**响应式布局**/
+@media (max-width: @screen-xs-max) { 
+    .site-card-grid{
+        width:100%
+    }
+ }
+@media (min-width: @screen-sm-min) { 
+    .site-card-grid{
+        width:50%
+    }
+ }
+@media (min-width: @screen-md-min) {
+    .site-card-grid{
+        width:25%
+    }
+}
+@media (min-width: @screen-lg-min) {  }

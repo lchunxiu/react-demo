@@ -1,5 +1,5 @@
 # react-demo
-React相关学习的练习
+React相关的练习
 ## 练习1（react-demo）：
 >功能包括：文章编辑和网址管理，如下：
 
